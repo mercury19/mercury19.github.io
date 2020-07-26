@@ -28,4 +28,8 @@
   .phb:after{ background-image: url('https://i.imgur.com/EsLXSby.png') }
 /* Your Styles Here */
 
+/* Title Page */
+.phb#p1{ text-align:center; }
+.phb#p1:after{ display:none; }
+
 </style>
