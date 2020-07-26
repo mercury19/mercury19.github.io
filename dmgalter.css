@@ -388,13 +388,6 @@
 /* Tables */
   .phb hr+section blockquote tr:nth-child(odd) td { background-color:transparent; } table tr:nth-child(odd) td { background-color: #ebcec3 }
 
-/* Class Table */
-  .phb .classTable {
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-  .phb .classTable h5 { margin-bottom: 10px }
-
 /* Footer */
   .phb .pageNumber { color: rgba(0, 0, 0, 0.6) }
   .phb .footnote { color: rgba(0, 0, 0, 0.6) }
