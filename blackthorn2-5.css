@@ -425,4 +425,8 @@ table.table2 tbody tr td {padding: .1em .1em}
     right      : 5px;
 }
 
+/* Title Page */
+.phb#p1{ text-align:center; }
+.phb#p1:after{ display:none; }
+
 </style>
