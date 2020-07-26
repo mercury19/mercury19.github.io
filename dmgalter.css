@@ -19,7 +19,7 @@
 .phb h1, .phb h2, .phb h3, .phb h4 {
 margin-top:         .2em;               
 margin-bottom:      .2em;
-font-family:        "mr._eaves_small_capsregular";
+font-family:        'mr._eaves_small_capsregular';
 font-weight:        800;
 color:              #58180D;}
 
@@ -50,7 +50,7 @@ font-size:          .458cm
 
 .phb h5 {
 margin-bottom:      .2em;               
-font-family:        "scaly_sans_capsregular";
+font-family:        'scaly_sans_capsregular';
 font-size:          11pt;
 font-weight:        900
 }
