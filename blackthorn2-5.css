@@ -9,7 +9,7 @@
 
 <style>
 
-@media print {.phb {height: 279.4mm; width: 215.9mm;} }
+@media print { .phb { height: 279.4mm; width: 215.9mm; } }
 
 /* Background */
 .phb { background-image: url('https://www.gmbinder.com/images/guKfO3M.jpg') }
@@ -17,11 +17,11 @@
 
 
 /* #, ##, ###,  ####*/
-.phb h1 {-webkit-text-stroke-width: 0; color: #d3e5e3; font-family: "Quintessential";font-variant: small-caps; font-size: 3.5em; letter-spacing: 0.02em;
+.phb h1 {-webkit-text-stroke-width: 0; color: #d3e5e3; font-family: "Quintessential"; font-variant: small-caps; font-size: 3.5em; letter-spacing: 0.02em;
         text-shadow: 4px 4px 11px #687d7a, -4px 4px 11px #687d7a, -4px -4px 11px #687d7a, 4px -4px 11px #687d7a;}
 .phb h2 {-webkit-text-stroke-width: 0; color: #ace5cb; font-family: "Quintessential";font-variant: small-caps; letter-spacing: 0.02em;
         text-shadow: 3px 3px 12px #000, -3px 3px 12px #000, -3px -3px 12px #000, 3px -3px 12px #000;}
-.phb h3 {-webkit-text-stroke-width: 0; color: #d3e5e3; border-bottom: 2px ridge #99754c; font-family: "EB Garamond";font-variant: small-caps; letter-spacing: 0.02em;
+.phb h3 {-webkit-text-stroke-width: 0; color: #d3e5e3; border-bottom: 2px ridge #99754c; font-family: "EB Garamond"; font-variant: small-caps; letter-spacing: 0.02em;
         text-shadow: 3px 3px 7px #687d7a, -3px 3px 7px #687d7a, -3px -3px 7px #687d7a, 3px -3px 7px #687d7a;}
 .phb h4 {-webkit-text-stroke-width: 0; color: #bab19b; font-family: "ScalySansSmallCaps";}
 .phb h5 {font-weight: 100; color: #8fb3a2;}
