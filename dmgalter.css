@@ -14,6 +14,51 @@
   .phb{ background-image: url('https://i.imgur.com/UCIUXyr.jpg') }
   .phb{ background-size: cover }
 
+/* Headers */
+
+.phb h1, .phb h2, .phb h3, .phb h4 {
+margin-top:         .2em;               
+margin-bottom:      .2em;
+font-family:        mr._eaves_small_capsregular;
+font-weight:        800;
+color:              #58180D;}
+
+
+.phb h1 {
+column-span:        all;                
+font-size:          24pt;
+-webkit-column-span:all;
+-moz-column-span:   all;}
+
+
+.phb h2 {
+font-size:          20pt;             
+}
+
+
+.phb h3 {
+font-size:          15pt;
+border-bottom:      2px solid #c9ad6a   
+}
+
+
+.phb h4 {
+margin-bottom:      0;                  
+font-size:          .458cm
+}
+
+
+.phb h5 {
+margin-bottom:      .2em;               
+font-family:        scaly_sans_capsregular;
+font-size:          11pt;
+font-weight:        900
+}
+
+
+.phb h6{}
+
+
 /* Notes */
   .phb blockquote {background-color: #ebcec3}
   .phb hr + blockquote tr:nth-child(odd) td {background-color: #FDF1DC;}
@@ -31,5 +76,7 @@
 /* Title Page */
 .phb#p1{ text-align:center; }
 .phb#p1:after{ display:none; }
+
+
 
 </style>
