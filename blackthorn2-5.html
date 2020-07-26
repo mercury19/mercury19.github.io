@@ -1,0 +1,428 @@
+<!--Blackthorn Dark Theme by /u/blckthorn -->
+
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=EB Garamond|Source Sans Pro|Alegreya Sans|Cinzel|Lato|Quintessential"
+  </head>
+</html>
+
+<style>
+
+@media print {.phb {height: 279.4mm; width: 215.9mm;} }
+
+/* Background */
+.phb { background-image: url('https://www.gmbinder.com/images/guKfO3M.jpg') }
+.phb { background-size: cover }
+
+
+/* #, ##, ###,  ####*/
+.phb h1 {-webkit-text-stroke-width: 0; color: #d3e5e3; font-family: "Quintessential";font-variant: small-caps; font-size: 3.5em; letter-spacing: 0.02em;
+        text-shadow: 4px 4px 11px #687d7a, -4px 4px 11px #687d7a, -4px -4px 11px #687d7a, 4px -4px 11px #687d7a;}
+.phb h2 {-webkit-text-stroke-width: 0; color: #ace5cb; font-family: "Quintessential";font-variant: small-caps; letter-spacing: 0.02em;
+        text-shadow: 3px 3px 12px #000, -3px 3px 12px #000, -3px -3px 12px #000, 3px -3px 12px #000;}
+.phb h3 {-webkit-text-stroke-width: 0; color: #d3e5e3; border-bottom: 2px ridge #99754c; font-family: "EB Garamond";font-variant: small-caps; letter-spacing: 0.02em;
+        text-shadow: 3px 3px 7px #687d7a, -3px 3px 7px #687d7a, -3px -3px 7px #687d7a, 3px -3px 7px #687d7a;}
+.phb h4 {-webkit-text-stroke-width: 0; color: #bab19b; font-family: "ScalySansSmallCaps";}
+.phb h5 {font-weight: 100; color: #8fb3a2;}
+.phb h6 {font-weight: 600; font-family: "Quintessential"; font-size: 2.5em; color: #000; line-height: .8em; font-variant: small-caps; text-align: center;
+        text-shadow: 3px 3px 7px #687d7a, -3px 3px 7px #687d7a, -3px -3px 7px #687d7a, 3px -3px 7px #687d7a;}
+
+
+/* Main Text, Lists, Links, First Letter after # */
+
+p {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+ul {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+.phb {color: #bbbfbd;}
+.phb a{color: #5c997d;}
+.phb h1+p::first-letter{color:#73807a; line-height: 0.86em;}
+
+
+/* Center, Pad left, Pad right */
+.center         {text-align: center}
+.tab            {padding-left: 30px; }
+.doubletab      {padding-left: 60px;}
+.padright       {padding-right: 30px}
+.doublepadright {padding-right: 60px}
+
+
+
+/* Table of Contents - Fancy Border*/
+.phb .TOC
+{
+    box-shadow: 0px 0px 36px 7px #687d7a;
+    background-color: #151717;
+    border-image-outset: 40px 68px 42px 68px;
+    border-image-slice: 134 0 fill;
+    border-image-source: url(https://www.gmbinder.com/images/TdNm6gK.png);
+    border-image-width:47px;
+    border-style:solid;
+    border-image-repeat:round;
+    line-height:11px;
+    padding: 2px 2px 2px 2px;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:40px;
+}
+.phb .wideclassTable h5 {color: #a1b3b0; line-height:11px;}
+
+
+
+
+/* Wide Class Table - Branches*/
+.phb .wideclassTable
+{
+    box-shadow: 0px 0px 32px 7px #687d7a;
+    background-color: #151717;
+    border-image-outset: 51px 70px;
+    border-image-slice: 118 0 fill;
+    border-image-source: url(https://www.gmbinder.com/images/4NJ3PL3.png);
+    border-image-width:58px;
+    border-style:solid;
+    border-image-repeat:round;
+    border-collapse:separate;
+    padding: 6px 2px 6px 2px;
+    width:95%;
+    line-height:11px;
+    margin-top:25px;
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.phb .wideclassTable2 h5 {color: #a1b3b0; line-height:11px;}
+
+
+
+/* Narrow Class Table - Branches*/
+.phb .classTable
+{
+    background-color: #151717;
+    border-image-outset: 36px 9px 36px 9px;
+    border-image-slice: 150;
+    border-image-source: url(https://www.gmbinder.com/images/4NJ3PL3.png);
+    border-style:solid;
+    box-shadow: 0px 0px 26px 5px #687d7a;
+    padding: 6px 2px 6px 2px;
+    width:95%;
+    margin-top:25px;
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.phb .classTable h5 {color: #a1b3b0; line-height:11px;}
+
+
+
+/* Tables */
+table tr:nth-child(odd) td {background-color: #454d4b;}
+    .phb table thead th {color: #6b9984;}
+    .phb table { font-family: "Alegreya Sans"; font-size: 1.1em; color: #e1e5e3;}
+    .phb table em {font-family: "Alegreya Sans";}
+    .phb table strong {font-family: "Alegreya Sans";}
+
+table.table2 tbody tr td {padding: .1em .1em}
+    table.table2 {font-family: "Alegreya Sans"; font-size: 1.1em; color: #d3e5df;}
+    table.table2 tr:nth-child(odd) td {background-color: #151717;}
+    table.table2 tr:nth-child(even) td {background-color: #151717;}
+    table.table2 td {vertical-align: top;}
+    
+
+/* Note Block*/
+.phb blockquote {
+    box-shadow: 0px 0px 20px 4px #687d7a;
+    background-color: #858c8b; font-size: 1em;
+    border-image-outset: 10px 0px;
+    border-image-slice: 90 100 fill;
+    border-image-source: url('https://www.gmbinder.com/images/KCaupPc.png');
+    border-image-width: 3.2;
+    border-style:solid;
+    border-image-repeat:round;
+    padding: 8px 10px 10px 10px;
+}
+.phb blockquote h1 {font-weight: 100; color: #FFF; text-shadow: none;}
+.phb blockquote h2 {font-weight: 100; color: #FFF; text-shadow: none;}
+.phb blockquote h3 {font-weight: 100; color: #FFF;}
+.phb blockquote h4 {font-weight: 100; color: #FFF;}
+.phb blockquote h5 {font-weight: 100; color: #FFF;}
+.phb blockquote ul {font-size: 1em; color: #000;}
+.phb blockquote p {font-size: 1em; color: #000;}
+.phb blockquote strong {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+.phb blockquote em {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+.phb blockquote a {color: #004022;}
+
+
+
+
+/*Description Block*/
+.phb .descriptive {
+    background-color:#131414;
+    border-image: initial;
+    border-color: #131414;
+    box-shadow: 0px 0px 20px 4px #687d7a;
+    padding: 0px 2px 0px 2px;
+}
+.phb .descriptive h4 {font-weight: 100;}
+.phb .descriptive h5 {line-height:14px;}
+.phb .descriptive p {padding-bottom:0; line-height:1.3em}
+.phb .descriptive U{color: #bcccc4;}
+.phb .descriptive p+p {padding-top:0em}
+.phb .descriptive strong {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+.phb .descriptive em {font-family: "Source Sans Pro"; letter-spacing: 0.02em;}
+
+
+
+/* Code Block */
+.phb code{border:none; font-family: "Alegreya Sans"; line-height: 1.2em; background-color: #919995; color: #000; letter-spacing: -0.02em;}
+.phb pre{background-color: #919995;}
+
+
+
+/* Monster Statblock */
+.phb hr+section blockquote {
+    background-image: url('https://www.gmbinder.com/images/oO5HTJm.png');
+    border-image: url('https://www.gmbinder.com/images/kIjTWRV.png');
+    background-position: center;
+    border-image-slice: 20
+}
+.phb hr+section blockquote hr {background-image: url(https://www.gmbinder.com/images/nyuK5zP.png);
+    height: 5px; margin: 7px 0;
+} 
+.phb hr+section blockquote {box-shadow: 0px 0px 18px 2px #687d7a;}
+.phb hr+section blockquote {color: #000;}
+.phb hr+section blockquote table thead th {color: #000;}
+.phb hr+section blockquote h2 {color: #000; text-shadow: none;}
+.phb hr+section blockquote h3 {font-family:"Source Sans Pro"; border-bottom:1px solid #000; color: #000; text-shadow: none;}
+.phb hr+section blockquote h4 {color: #000;}
+.phb hr+section blockquote h5 {color: #000;}
+.phb hr+section blockquote p {color: #21332b; font-family: "Source Sans Pro"; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb hr+section blockquote p em {color: #000; font-family: "Alegreya Sans"; font-size: 1.1em; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb hr+section blockquote p strong {color: #000; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb hr+section blockquote hr+ul {color: #21332b; font-family: "Alegreya Sans"; font-size: 1.1em; letter-spacing: -0.02em}
+.phb hr+section blockquote hr+ul strong {color: #000; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb hr+section blockquote hr+ul em {color: #000; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb hr+section blockquote table {color: #000;  line-height:6px; padding-bottom: 4px; padding-top: 6px;}
+.phb hr+section blockquote table tr {letter-spacing: 0.02em;}
+.phb hr+section blockquote table td {background-color: inherit; color: #21332b;}
+
+
+
+/* Vehicle Statblock - Narrow */
+.phb .vehicle {
+    box-shadow: 0px 0px 19px 1px #687d7a;
+    position: relative; padding-top: 15px; padding-bottom: 5px;
+    background-image: url('https://www.gmbinder.com/images/jGEntT8.png');
+    background-position: center;
+    border-style: solid; border-image: url('https://www.gmbinder.com/images/HjCnrtA.png');
+    border-width: 20px; border-image-slice: 50; border-image-outset: 6px 0px;
+}
+.phb .vehicle hr {visibility: visible;
+    height: 6px; margin: 4px 0;
+    background-image: url('https://www.gmbinder.com/images/oYkgcAN.png');
+    background-size: 100% 100%; border: none;
+} 
+.phb .vehicle {color: #c8ccca;}
+.phb .vehicle h2 {color: #5c997d; margin-top: -8px; margin-bottom: 0;  text-shadow: none;}
+.phb .vehicle h2+p {padding-bottom: 0}
+.phb .vehicle h3 {color: #a1b3b0; font-family: "Source Sans Pro"; font-variant: small-caps; font-weight: 500;border-bottom:1px solid #29664a;
+        text-shadow: 1px 1px 7px #687d7a, -1px 1px 7px #687d7a, -1px -1px 7px #687d7a, 1px -1px 7px #687d7a;}
+.phb .vehicle p {color: #a1b3b0; font-family: "Source Sans Pro"; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb .vehicle p em {color: #c8ccca; font-family: "Alegreya Sans"; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb .vehicle p strong {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehicle p+p {margin-top: 0; margin-bottom: 7px; text-indent:0;}
+.phb .vehicle hr+ul {color: #a1b3b0;; font-family: "Alegreya Sans"; letter-spacing: -0.02em}
+.phb .vehicle hr+ul strong {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehicle hr+ul em {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehicle table {margin: 0;
+    line-height: 6px;
+    padding-bottom: 4px; padding-top: 6px;
+    column-span: 1;
+    background-color: transparent;
+    border-style: none; border-image: none;
+    -webkit-column-span: 1}
+.phb .vehicle table tr {letter-spacing: 0.02em; background-color: inherit;}
+.phb .vehicle table td {background-color: inherit; color: #a1b3b0}
+.phb .vehicle hr+table tbody tr:nth-child(odd) {background-color: inherit}
+
+
+
+/* Vehicle Statblock - Wide */
+.phb .vehiclewide
+{   column-span: all; column-fill: auto; column-gap: 1cm; column-width: 7.68cm;
+    position: relative; padding-top: 15px; padding-bottom: 10px;
+    background-image: url('https://www.gmbinder.com/images/Ug4HW9z.png');
+    background-position: center;
+    border-style: solid; border-image: url('https://www.gmbinder.com/images/HjCnrtA.png');
+    border-width: 20px; border-image-slice: 50; border-image-outset: 6px 0px;
+}
+.phb .vehiclewide hr {visibility: visible;
+    height: 6px; margin: 4px 0;
+    background-image: url('https://www.gmbinder.com/images/oYkgcAN.png');
+    background-size: 100% 100%; border: none;
+} 
+.phb .vehiclewide {box-shadow: 0px 0px 19px 1px #687d7a;}
+.phb .vehiclewide {color: #c8ccca;}
+.phb .vehiclewide h2 {color: #5c997d; margin-top: -8px; margin-bottom: 0;  text-shadow: none;}
+.phb .vehiclewide h2+p {padding-bottom: 0}
+.phb .vehiclewide h3 {color: #a1b3b0; font-family: "Source Sans Pro"; font-variant: small-caps; font-weight: 500;border-bottom:1px solid #29664a;
+        text-shadow: 1px 1px 7px #687d7a, -1px 1px 7px #687d7a, -1px -1px 7px #687d7a, 1px -1px 7px #687d7a;}
+.phb .vehiclewide p {color: #a1b3b0; font-family: "Source Sans Pro"; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb .vehiclewide p em {color: #c8ccca; font-family: "Alegreya Sans"; letter-spacing: 0.02em; font-size: 1.02em;}
+.phb .vehiclewide p strong {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehiclewide p+p {margin-top: 0; margin-bottom: 7px; text-indent:0;}
+
+.phb .vehiclewide hr+ul {color: #a1b3b0;; font-family: "Alegreya Sans"; letter-spacing: -0.02em}
+.phb .vehiclewide hr+ul strong {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehiclewide hr+ul em {color: #c8ccca; font-family: "Lato"; font-size: 0.93em; letter-spacing: 0.02em}
+.phb .vehiclewide table {margin: 0;
+    line-height: 6px;
+    padding-bottom: 4px; padding-top: 6px;
+    column-span: 1;
+    background-color: transparent;
+    border-style: none; border-image: none;
+    -webkit-column-span: 1}
+.phb .vehiclewide table tr {letter-spacing: 0.02em; background-color: inherit;}
+.phb .vehiclewide table td {background-color: inherit; color: #a1b3b0}
+.phb .vehiclewide hr+table tbody tr:nth-child(odd) {background-color: inherit}
+
+
+
+/* Part Page Header */
+.phb .partpage {background-image:url(https://www.gmbinder.com/images/EpeGK5R.png);
+    height: 266px;
+    background-size:cover;
+    background-position:center;
+    z-index: -1;
+}
+.phb .partpage h1{font-weight: 100; color: #d3e5e3; font-family: "Quintessential"; font-variant: small-caps; font-size: 3.5em; 
+        line-height:1.2em; letter-spacing: 0.02em; text-align: center; padding-top:16px; 
+        text-shadow: 4px 4px 11px #687d7a, -4px 4px 11px #687d7a, -4px -4px 11px #687d7a, 4px -4px 11px #687d7a;}
+.phb .partpage h5{font-weight: 100; color: #d3e5e3; font-family: "Quintessential"; font-variant: small-caps; letter-spacing: 0.02em; line-height:2em;
+        text-shadow: 3px 3px 7px #687d7a, -3px 3px 7px #687d7a, -3px -3px 7px #687d7a, 3px -3px 7px #687d7a;}
+
+
+
+
+
+
+/* Footer Image - Odd*/
+.phb:nth-child(odd):after
+{
+    content          : "";
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : url('https://www.gmbinder.com/images/SPUz1Zn.png');
+    background-size: cover;
+}
+
+/* Footer Image - Even*/
+.phb:nth-child(even):after
+{ 
+    content          : '';
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : url('https://www.gmbinder.com/images/tVxbE45.png');
+    background-size  : cover;
+}
+
+/* Center Footer - No Side Tree*/
+.phb:nth-child(  ):after
+{
+    content          : "";
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : url('https://www.gmbinder.com/images/zvc1QXN.png');
+    background-size: cover;
+}
+
+/* Right Tree Only */
+.phb:nth-child(  ):after
+{
+    content          : "";
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : url('https://www.gmbinder.com/images/coZEaRo.png');
+    background-size: cover;
+}
+
+/* Left Tree Only */
+.phb:nth-child(  ):after
+{ 
+    content          : '';
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : url('https://www.gmbinder.com/images/dTaqAl5.png');
+    background-size  : cover;
+}
+
+/* No Footer */
+.phb:nth-child(  ):after
+{
+    content          : "";
+    position         : absolute;
+    bottom           : 0;
+    left             : 0;
+    z-index          : -1;
+    height           : 392px;
+    width            : 100%;
+    background-image : none;
+    background-size: cover;
+}
+
+
+/* Footnote */
+.phb .footnote{
+    content    : '';
+    position   : absolute; 
+    right      : 80px;
+    bottom     : 34px;
+    z-index    : 150;
+    width      : 400px;
+    text-align : right;
+    color      : #8fb3a2;
+    font-family: "ScalySansSmallCaps";
+    font-size  : 13pt;
+    letter-spacing: 0.5px;
+    font-variant: small-caps;
+}
+
+
+
+/* Page Number */
+.phb .pageNumber.auto{
+    font-size: 13pt;
+    color: #8fb3a2;
+    position   : absolute;
+    bottom     : 34px;
+    width      : 50px;
+    text-align : center;
+}
+.phb:nth-child(even) .pageNumber.auto{
+    left       : 5px;
+}
+.phb:nth-child(odd) .pageNumber.auto{
+    right      : 5px;
+}
+
+</style>
