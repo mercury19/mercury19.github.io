@@ -9,14 +9,28 @@
 
 			const dest = document.getElementById("grid");
 
+			function fetchImage(target, anc) {
+				fetch(target, {
+					headers: {
+						"Access-Control-Allow-Origin": "https://mercury19.github.io/",
+						"Sec-Fetch-Mode": "cors"
+					}
+				})
+				.then(response => response.blob())
+				.then((blob) => {
+					const imageURL = URL.createObjectURL(blob);
+					const imageElement = document.createElement("img");
+					imageElement.src = imageURL;
+					const container = document.getElementById(anc)
+					container.appendChild(imageElement);
+				});
+			}
+
 			for (let i = 0; i < 20; i++) {
 				const anchor = document.createElement("a");
 				anchor.setAttribute('href',links[i]);
-				const img = document.createElement("img");
-				img.src = imgs[i];
-				anchor.appendChild(img);
+				fetchImage(imgs[i], anchor);
 				dest.appendChild(anchor);
 			}
-		</script>
 </body>
 </html>
