@@ -11,23 +11,16 @@
 
 			const dest = document.getElementById("grid");
 
-			async function checkImg(target) {
-				const response = await fetch(target);
-
-				if (response.status == 404) {
-					console.log("failed");
-					return;
-				}
-
+			function checkImg(index) {
 				const anc = document.createElement("a");
-				anc.setAttribute("href", links[i]);
+				anc.setAttribute("href", links[index]);
 				const petImage = document.createElement("img");
-				petImage.src = imgs[i];
+				petImage.src = imgs[index];
 				anc.appendChild(petImage);
 				dest.appendChild(anc);
 			}
 			for (let i = 0; i < 20; i++) {
-				checkImg(imgs[i]);
+				setTimeout(checkImg(i), 10000);
 			}
 		</script>
 	</body>
