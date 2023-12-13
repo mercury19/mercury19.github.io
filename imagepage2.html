@@ -11,9 +11,9 @@
 
 			const dest = document.getElementById("grid");
 			for (let i = 0; i < 20; i++) {
-				const anc = document.creatElement("a");
+				const anc = document.createElement("a");
 				anc.setAttribute("href", links[i]);
-				const petImage = document.creatElement("img");
+				const petImage = document.createElement("img");
 				petImage.src = imgs[i];
 				anc.appendChild(petImage);
 				dest.appendChild(anc);
