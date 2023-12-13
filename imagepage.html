@@ -16,15 +16,15 @@
 
 				if (response.status == 404) {
 					console.log("failed");
+					return;
 				}
 
-				const image = await response.blob();
-				const imgElement = document.createElement("img");
-				imgElement.src = URL.createObjectURL(image);
-				const anchor = document.createElement("a");
-				anchor.setAttribute('href', links[i]);
-				anchor.appendChild(imgElement);
-				dest.appendChild(anchor);
+				const anc = document.createElement("a");
+				anc.setAttribute("href", links[i]);
+				const petImage = document.createElement("img");
+				petImage.src = imgs[i];
+				anc.appendChild(petImage);
+				dest.appendChild(anc);
 			}
 			for (let i = 0; i < 20; i++) {
 				checkImg(imgs[i]);
