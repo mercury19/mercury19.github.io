@@ -12,7 +12,7 @@
 			const dest = document.getElementById("grid");
 
 			async function checkImg(target) {
-				const response = await fetch(target)
+				const response = await fetch(target);
 
 				if (response.status == 404) {
 					console.log("failed");
